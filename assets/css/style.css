@@ -9150,7 +9150,7 @@ a:active {
   position: relative;
 }
 .header .navbar-mobile .navbar-brand {
-  background-image: url("../images/mediaclub--banner.png");
+  background-image: url("../images/mediaclub--misthead--banner.png");
   background-position: 12px 10px;
   background-repeat: no-repeat;
   background-size: 259px;
@@ -9208,7 +9208,7 @@ a:active {
   margin: 0;
 }
 .header .navbar-desktop .navbar-header h1.site-name a {
-  background-image: url("../images/mediaclub--banner.png");
+  background-image: url("../images/mediaclub--misthead--banner.png");
   background-position: 0px 0px;
   background-repeat: no-repeat;
   background-size: 530px;
@@ -9302,7 +9302,7 @@ a:active {
   .block-menu-edition
   h1.site-name
   a {
-  background-image: url("../images/mediaclub--banner.png");
+  background-image: url("../images/mediaclub--misthead--banner.png");
   background-position: 10px 2px;
   background-repeat: no-repeat;
   background-size: 310px;
@@ -13697,39 +13697,8 @@ body.scrolled
 .fa:before {
   font-family: IconFontST;
 }
-.fa-twitter:before {
-  content: "";
-}
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .fa-twitter:before {
-    background-image: url("../images/svg/twitter-st175.svg");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 14px;
-  }
-}
-.fa-facebook:before {
-  content: "";
-}
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .fa-facebook:before {
-    background-image: url("../images/svg/fb-st175.svg");
-    background-repeat: no-repeat;
-    background-position: 2px 0px;
-    background-size: 8px;
-  }
-}
-.fa-pinterest:before {
-  content: "";
-}
 .fa-instagram:before {
   content: "";
-}
-.fa-rss:before {
-  content: "";
-}
-.fa-pdf:before {
-  content: "";
 }
 @media (-ms-high-contrast: active), (-ms-high-contrast: none) {
   .fa-pdf:before {
@@ -13739,35 +13708,13 @@ body.scrolled
     background-size: 21px;
   }
 }
-.fa-podcast:before {
-  content: "";
-}
-.fa-newsletter:before {
-  content: "";
-  font-size: 14px;
-  vertical-align: middle;
-}
-.fa-telegram:before {
-  content: "";
-}
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .fa-telegram:before {
-    background-image: url("../images/svg/telegram-st175.svg");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 12px;
-  }
-}
-.fa-youtube:before {
-  content: "";
-}
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .fa-youtube:before {
-    background-image: url("../images/svg/youtube-icon.svg");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 15px;
-  }
+.fa-tiktok:before {
+  background-image: url(../svg/tiktok-brands.svg);
+  background-size: 14px 14px;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  content: "";
 }
 .page-user-login .login {
   width: 35% !important;
@@ -15029,7 +14976,7 @@ body.scrolled
 }
 @media (min-width: 740px) {
   .article-type-longform #navbar.navbar-blue .navbar-collapse .nav-home a {
-    background-image: url(../images/mediaclub--banner.png);
+    background-image: url(../images/mediaclub--misthead--banner.png);
     background-position: 2px 15px;
     background-repeat: no-repeat;
     background-size: 250px;
@@ -19933,9 +19880,6 @@ body.scrolled
 }
 .signup-newsletter .subbertext a {
   color: #12239a !important;
-}
-.signup-newsletter .fa-newsletter:before {
-  padding-right: 10px;
 }
 .top-stories-sidebar .stsph-cta-inputarea input[name="stsph-cta-email"] {
   font-size: 13px;
@@ -30256,14 +30200,6 @@ body.node--type-container-page .node__content {
   width: 100%;
   height: 100%;
 }
-.live-coverage-page
-  #navbar
-  .navbar-collapse
-  nav
-  .longform-social-button
-  a.fa-facebook:before {
-  font-size: 14px;
-}
 @media (min-width: 740px) {
   .live-coverage-page #navbar .navbar-collapse nav .longform-social-button a {
     width: 38px;
@@ -30316,7 +30252,7 @@ body.node--type-container-page .node__content {
 }
 @media (min-width: 740px) {
   .live-coverage-page #navbar.navbar-blue .navbar-collapse .nav-home a {
-    background-image: url(../images/mediaclub--banner.png);
+    background-image: url(../images/mediaclub--misthead--banner.png);
     background-position: 2px 15px;
     background-repeat: no-repeat;
     background-size: 250px;
@@ -32907,7 +32843,7 @@ footer .footer-apps-info .site-logo h4 {
 }
 footer .footer-apps-info .site-logo h4 span {
   display: block;
-  background-image: url("../images/mediaclub--banner.png");
+  background-image: url("../images/mediaclub--misthead--banner.png");
   background-size: 262px;
   background-repeat: no-repeat;
   background-position: 1px 6px;
